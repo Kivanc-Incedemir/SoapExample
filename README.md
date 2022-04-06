@@ -38,7 +38,7 @@ mvn test
 ### API Endpoint
 
 * Http Method - **POST**
-* Endpoint - **localhost:8080/api/v1/discounts**
+* Endpoint - **localhost:8080/soapWS**
 
 Example request
 
@@ -56,7 +56,7 @@ Example request
 </soapenv:Envelope>
 ```
 
-The response is net payable amount.
+The response is user: name,id and salary
 
 ```xml
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
