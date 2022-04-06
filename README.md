@@ -56,7 +56,7 @@ Example request
 </soapenv:Envelope>
 ```
 
-The response is user: name,id and salary
+The response is user: name, id and salary
 
 ```xml
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
